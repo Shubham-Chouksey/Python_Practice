@@ -13,7 +13,7 @@ avg_query_result = sum(query_name_list)/3
 print(format(avg_query_result,".2f"))
 
 
-=================================================================================
+#=================================================================================
 
 Total_Students = int(input())
 
@@ -44,19 +44,19 @@ def sorted_stud(students):
 sorted_stud(students)
 
 ##Input =5   output =Berry
-Harry                Harry
-37.21
-Berry
-37.21
-Tina
-37.2
-Akriti
-41
-Harsh
-39
+#Harry                Harry
+#37.21
+#Berry
+#37.21
+#Tina
+#37.2
+#Akriti
+#41
+#Harsh
+#39
 
 
-==================================================================================================
+#==================================================================================================
 
 def is_leap(year):
     leap = False
@@ -70,7 +70,7 @@ def is_leap(year):
 year = int(input())
 print(is_leap(year))
 
-======================================
+#======================================
 
 L = ''
 for y in range(1,int(input())+1):
@@ -78,7 +78,7 @@ for y in range(1,int(input())+1):
 
 print(L)
 
-========================================
+#========================================
 
 #second most number in the array input
 
